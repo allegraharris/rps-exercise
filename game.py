@@ -17,3 +17,8 @@ elif user_choice == 'scissors' or 'Scissors':
     print("You chose scissors!")
 else: 
     print("Invalid user input. Please choose one of the listed options when you restart the game.")
+
+options = ["rock", "paper", "scissors"]
+
+comp_choice = random.choice(options)
+print("Computer chose " + comp_choice + "!")
